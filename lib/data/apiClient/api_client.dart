@@ -1,3 +1,3 @@
-import 'package:kukuruyu_s_application1/core/app_export.dart';
+import 'package:mola_pos/core/core.dart';
 
 class ApiClient {}

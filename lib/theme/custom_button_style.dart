@@ -1,5 +1,5 @@
 import 'dart:ui';
-import 'package:kukuruyu_s_application1/core/app_export.dart';
+import 'package:mola_pos/core/core.dart';
 import 'package:flutter/material.dart';
 
 /// A class that offers pre-defined button styles for customizing button appearance.

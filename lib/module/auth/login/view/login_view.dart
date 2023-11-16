@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'package:mola_pos/core/core.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../bloc/login_bloc.dart';
 import '../event/login_event.dart';
@@ -43,11 +43,11 @@ class _LoginViewState extends State<LoginView> {
     );
   }
 
-  Widget buildView( 
-      BuildContext context,
-      LoginBloc bloc,
-      LoginState state,
-    ) {
+  Widget buildView(
+    BuildContext context,
+    LoginBloc bloc,
+    LoginState state,
+  ) {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Login'),
@@ -71,5 +71,4 @@ class _LoginViewState extends State<LoginView> {
       ),
     );
   }
-}    
-    
+}

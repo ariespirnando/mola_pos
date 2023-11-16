@@ -1,7 +1,7 @@
 import 'en/en_translations.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/cupertino.dart';
-import '../core/app_export.dart';
+import '../core/core.dart';
 
 class AppLocalization {
   AppLocalization(this.locale);

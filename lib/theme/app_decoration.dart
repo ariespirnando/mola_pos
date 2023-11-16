@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:kukuruyu_s_application1/core/app_export.dart';
+import 'package:mola_pos/core/core.dart';
 
 class AppDecoration {
   // Fill decorations
